@@ -1,0 +1,40 @@
+import { Activity, Area, Job } from "./type.d.ts";
+
+export const activities: Activity[] = [
+  {
+    id: 1,
+    job: Job.OTPV,
+    description: "Trabajo en el OTPV",
+    solution: "Trabajo en el OTPV",
+    start_date: "2022-01-01",
+    end_date: "2022-01-02",
+    area: Area.MOLINO,
+    stop_machine: false,
+    created_at: "2022-01-01T00:00:00.000Z",
+    updated_at: "2022-01-01T00:00:00.000Z",
+  },
+  {
+    id: 2,
+    job: Job.OTFM,
+    description: "Trabajo en el OTFM",
+    solution: "Trabajo en el OTFM",
+    start_date: "2022-01-01",
+    end_date: "2022-01-02",
+    area: Area.MOLINO,
+    stop_machine: false,
+    created_at: "2022-01-01T00:00:00.000Z",
+    updated_at: "2022-01-01T00:00:00.000Z",
+  },
+  {
+    id: 3,
+    job: Job.OTCO,
+    description: "Trabajo en el OTCO",
+    solution: "Trabajo en el OTCO",
+    start_date: "2022-01-01",
+    end_date: "2022-01-02",
+    area: Area.MOLINO,
+    stop_machine: false,
+    created_at: "2022-01-01T00:00:00.000Z",
+    updated_at: "2022-01-01T00:00:00.000Z",
+  },
+];
