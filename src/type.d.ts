@@ -7,8 +7,6 @@ export type Activity = {
   end_date: string;
   area: Area;
   stop_machine: boolean;
-  created_at: string;
-  updated_at: string;
 };
 
 export enum Job {
